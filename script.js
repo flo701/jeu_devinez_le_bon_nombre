@@ -13,6 +13,9 @@ function getRandomNumber() {
 
 check.addEventListener('click', function() {
     console.log("nombre du robot : ",robot);
+    console.log("lower : ", lower);
+    console.log("higher : ", higher);
+    
     numberChosen = number.value;
 
     if (answer.innerHTML== 'Gagné !') {
@@ -58,6 +61,8 @@ function newGame() {
     answer.style.color= "gray";
     answer.style.fontWeight= "normal";
     robot = getRandomNumber();
+    lower = 1;
+    higher = 100;
 }
 
 reset.addEventListener('click', newGame)
