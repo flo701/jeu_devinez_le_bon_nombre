@@ -1,7 +1,3 @@
-body {
-    background-color: black;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -14,7 +10,8 @@ body {
     padding :35px 10px;
     border: 1px solid black;
     border-radius: 10px;
-    background: linear-gradient(110deg, rgb(246, 115, 136), rgb(53, 39, 241));  
+    background: linear-gradient(110deg, rgb(246, 115, 136), rgb(53, 39, 241)); 
+    box-shadow: 5px 5px 10px 7px #d4cbcb; 
 }
 
 @media screen and (max-width: 768px) {
