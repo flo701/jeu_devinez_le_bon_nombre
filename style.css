@@ -3,15 +3,23 @@ body {
     background-color: #d4cbcb;
 }
 
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     width: 650px;
     height: 400px;
-    position: absolute;
+    margin: auto;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     padding :35px 10px;
     border: 1px solid black;
     border-radius: 10px;
@@ -22,9 +30,9 @@ body {
 @media screen and (max-width: 768px) {
     .container {
     width: 500px;
-    top: 8%;
+    /* top: 8%;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-50%); */
     }
 }
 
@@ -40,11 +48,11 @@ body {
     }
 }
 
-@media screen and (max-width: 300px) {
+/* @media screen and (max-width: 300px) {
     .container {
     width: auto;
     }
-}
+} */
 
 h2 {
     margin-top: 10px;
@@ -122,4 +130,12 @@ i {
 i:hover {
     transform: scale(0.85);
     color: rgb(240, 234, 234);
+}
+
+.explanations {
+    text-align: center;
+   margin-top: 25px;
+   margin-bottom: 22px;
+   padding-left: 7px;
+   padding-right: 7px;
 }
