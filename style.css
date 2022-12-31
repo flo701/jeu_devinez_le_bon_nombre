@@ -1,3 +1,8 @@
+body {
+    margin: 0px;
+    background-color: #d4cbcb;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -11,12 +16,15 @@
     border: 1px solid black;
     border-radius: 10px;
     background: linear-gradient(110deg, rgb(246, 115, 136), rgb(53, 39, 241)); 
-    box-shadow: 5px 5px 10px 7px #d4cbcb; 
+    box-shadow: 5px 5px 20px 3px black; 
 }
 
 @media screen and (max-width: 768px) {
     .container {
     width: 500px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
     }
 }
 
