@@ -22,7 +22,7 @@ body {
 @media screen and (max-width: 768px) {
     .container {
     width: 500px;
-    top: 5%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%);
     }
