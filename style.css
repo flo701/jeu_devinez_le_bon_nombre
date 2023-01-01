@@ -1,6 +1,7 @@
 body {
     margin: 0px;
-    background-color: #d4cbcb;
+    /* background-color: #d4cbcb; */
+    background-color: #eae4e2;
 }
 
 h1 {
@@ -27,32 +28,15 @@ h1 {
     box-shadow: 5px 5px 20px 3px black; 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     .container {
-    width: 500px;
+    /* width: 500px; */
+    width: 85%;
     /* top: 8%;
     left: 50%;
     transform: translate(-50%); */
     }
 }
-
-@media screen and (max-width: 600px) {
-    .container {
-    width: 400px;
-    }
-}
-
-@media screen and (max-width: 460px) {
-    .container {
-    width: 250px;
-    }
-}
-
-/* @media screen and (max-width: 300px) {
-    .container {
-    width: auto;
-    }
-} */
 
 h2 {
     margin-top: 10px;
@@ -91,9 +75,9 @@ h2 {
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .answer {
-    width: 95%;
+    width: 90%;
     margin-top: 88px;
     }
 }
